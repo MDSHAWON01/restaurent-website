@@ -1,0 +1,92 @@
+.app-container {
+    background-color: #b88c16;
+    border-radius: 10px;
+}
+
+.app-img {
+    margin-bottom: -100px;
+}
+
+.app-content {
+    color: #000;
+}
+
+.app-content h2 {
+    color: #000;
+    font-weight: 600;
+}
+
+.app-content {
+    padding-top: 50px;
+}
+
+.app-content p {
+    color: azure;
+}
+
+.btn-apple {
+    background: black;
+    border: none;
+    padding: 7px 25px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn-google {
+    background: black;
+    border: none;
+    padding: 7px 25px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn-google i {
+    background: #000;
+}
+
+.btn-apple:hover a {
+    color: #b88c16;
+}
+
+.btn-google:hover a {
+    color: #b88c16;
+}
+
+@media only screen and (max-width: 992px) {
+    .app-img img {
+        width: 100%;
+    }
+
+    .app-content h5 {
+        font-size: 1rem;
+    }
+
+    .app-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .app-content h5 {
+        font-size: 0.7rem;
+        line-height: 25px;
+    }
+
+    .btn-apple,
+    .btn-google {
+        padding: 5px 20px;
+        font-size: 0.8rem;
+    }
+
+    .app-content {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .app-content {
+        padding: 30px;
+    }
+
+    .app-img {
+        margin-bottom: 0;
+    }
+}
